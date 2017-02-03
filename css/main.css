@@ -26,10 +26,14 @@ html {
 
 .banner {
   position: relative;
+  max-height: 500px;
+  overflow: hidden;
+  bottom: inherit;
+  left: inherit;
 }
 
 .banner-content {
   position: absolute;
-  transform: translateY(-200%);
+  transform: translateY(-120%);
   color: #fff;
 }
