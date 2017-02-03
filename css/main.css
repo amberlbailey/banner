@@ -26,14 +26,15 @@ html {
 
 .banner {
   position: relative;
-  max-height: 500px;
+  max-height: 24em;
   overflow: hidden;
-  bottom: inherit;
-  left: inherit;
 }
 
 .banner-content {
   position: absolute;
-  transform: translateY(-120%);
+  transform: translateX(-50%);
+  overflow: hidden;
+  left: 50%;
   color: #fff;
+  bottom: 0;
 }

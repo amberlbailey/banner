@@ -1146,7 +1146,7 @@ legend {
   }
 
   input,
-  option, 
+  option,
   select {
     height: calc(1.5rem + .1875rem + .1875rem);
   }
